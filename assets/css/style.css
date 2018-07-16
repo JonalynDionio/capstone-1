@@ -11,6 +11,22 @@ body, html {
 }
 
 
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+
+
+
+.carousel-caption {
+  color: black;
+}
+
 .carousel-caption button {
   border: none;
   outline: 0;
@@ -28,6 +44,8 @@ body, html {
   background-color: #555;
   color: white;
 }
+
+
 
 
 
@@ -61,6 +79,8 @@ body, html {
   left: 50%;
   margin-left: 0px;
 }
+
+
 @media screen and (max-width: 480px) {
   .timeline:before {
     margin-left: -64px;
@@ -335,6 +355,6 @@ footer {
   float: left;
   width: 100%;
   color: #fff;
-  padding: 30px 0
+  padding: 30px 0;
 }
 

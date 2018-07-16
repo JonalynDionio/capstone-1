@@ -1,0 +1,28 @@
+
+
+
+
+
+.about-title {
+	margin-top: 120px;
+}
+
+
+
+.about {
+	height: 500px;
+	width: 550px;
+}
+
+
+/* footer */
+
+footer {
+  background: #7b4397; 
+  float: left;
+  width: 100%;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: 70px;
+}
+
