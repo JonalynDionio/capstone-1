@@ -17,7 +17,7 @@
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 			<!-- fav icon -->
-			<link rel="icon" type="ico" href="assets/images/favicon.ico">
+			<link rel="icon" type="ico" href="assets/images/favicon.png">
 
 			<!-- bootstrap link -->
 			<link rel="stylesheet" href="assets/css/bootstrap.css">
@@ -27,29 +27,44 @@
 </head>
 <body>
 
-		<!-- navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-	  <a class="navbar-brand" href="#">Art Workshop</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	    <ul class="navbar-nav">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">About</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Service</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Contact</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>  <!-- end of navbar -->
+		<!-- Navbar -->
+	
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-secondary">
+			<a class="navbar-brand" href="#">Art Workshop</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarNav"> 
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="service.html">Service </a>
+
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Home</a>
+							<a class="dropdown-item" href="#">About</a>
+							<a class="dropdown-item" href="#">Service</a>
+							<a class="dropdown-item" href="#">Contact</a>
+
+						</div>
+
+					</li>
+				</ul>
+			</div>
+
+		</nav> <!-- end nav -->
+
 
 
 	<!-- carousel -->
@@ -57,13 +72,18 @@
 	<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="assets/images/logo2.jpeg" alt="First slide">
+	      <img class="d-block w-100" src="assets/images/carousel.jpeg" alt="First slide">
+	      <div class="carousel-caption d-none d-md-block">
+	      	<h1>Welcome to Art Workshop</h1>
+	      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+	      	<a href="register.html"><button>Register Now !</button></a>
+	      </div>
 		 </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100" src="assets/images/logo3.jpeg" alt="Second slide">
+	      <img class="d-block w-100" src="assets/images/carousel2.jpeg" alt="Second slide">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100" src="assets/images/logo6.jpeg" alt="Third slide">
+	      <img class="d-block w-100" src="assets/images/carousel3.jpeg" alt="Third slide">
 	    </div>
 	  </div>
 	  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -78,10 +98,10 @@
 
     <!-- timeline -->
 
-    	<div id="fh5co-couple-story">
+    	<div id="timeline">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-md-offset-2 text-center fh5co-heading animate-box">
+				<div class="col-md-12 col-md-offset-2 text-center fh5co-heading">
 					<h2> Workshop Timeline</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven</p>

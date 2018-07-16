@@ -11,6 +11,26 @@ body, html {
 }
 
 
+.carousel-caption button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-bottom: 300px;
+}
+
+.carousel-caption button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
 
 
 /* timeline */
@@ -21,7 +41,7 @@ body, html {
 .fh5co-heading span, .fh5co-heading span {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 5px;
   letter-spacing: 2px;
   font-weight: 600;
 }
@@ -218,8 +238,8 @@ body, html {
   width: 100%;
 }
 
-#fh5co-couple-story {
-  padding: 7em 0;
+#timeline {
+  padding: 4em 0;
   clear: both;
 }
 
@@ -231,13 +251,14 @@ body, html {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 60px;
+  font-size: 30px;
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
   color: black;
   font-family: "Sacramento", Arial, serif;
 }
+
 
 
 
