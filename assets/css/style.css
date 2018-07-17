@@ -377,8 +377,8 @@ body:after {
   padding: 40px 0 80px 0;
 }
 
-#testimonial {
-    background: url(../img/testi-bg.png);
+.testimonials {
+    background: url(../images/logo20.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -387,18 +387,20 @@ body:after {
 .review-star {
     text-align: center;
     color: rgb(255, 214, 0);
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 20px;
 }
 
 .client-pic img {
-    border-radius: 20%;
-    height: 200px;
-    width: 200px;
+    border-radius: 10%;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .review-desc {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.8;
     font-weight: 100;
     font-style: italic;
@@ -420,7 +422,10 @@ p.client-name {
     padding-bottom: 5px;
 }
 
-
+.testimonials h2 {
+  margin-left: 20px;
+  padding-top: 20px;
+}
 
 
 
