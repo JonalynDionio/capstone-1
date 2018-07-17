@@ -11,17 +11,85 @@ body, html {
 }
 
 
-.logo-img{
-    float: left;
-    position: relative;
-    margin: 10px 15px 15px 10px;
+/* wrapper */
+
+.main-wrapper-first {
+  width: 60.75%;
+  margin: 0 auto;
+  margin-top: 6rem;
 }
-.bg-div{
-   background:#333;
-   overflow: hidden;
+
+@media (min-width: 1200px) {
+  .main-wrapper-first {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-wrapper-first {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-wrapper-first {
+    margin-top: 3rem;
+    width: 97%;
+  }
 }
 
 
+.main-wrapper {
+  width: 68.75%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .main-wrapper {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-wrapper {
+    width: 97%;
+  }
+}
+
+
+body {
+  background-attachment: fixed;
+  background-image: url("../images/bg2.jpeg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+
+
+
+
+/* carousel*/
 
 .carousel-caption {
   color: black;
@@ -52,6 +120,12 @@ body, html {
 
 
 /* timeline */
+
+.timeline-area {
+  background: #fff;
+  padding: 40px 0 80px 0;
+}
+
 
 .fh5co-heading h2, .fh5co-heading h2 {
   color: #fff;
@@ -141,7 +215,7 @@ body, html {
     top: 31px;
   }
 }
-.timeline > li > .timeline-badge {
+.timeline > li > .timeline-badge, .timeline-badge1, .timeline-badge2 {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -164,7 +238,7 @@ body, html {
   border-radius: 50%;
 }
 @media screen and (max-width: 480px) {
-  .timeline > li > .timeline-badge {
+  .timeline > li > .timeline-badge, .timeline-badge1, .timeline-badge2 {
     width: 60px;
     height: 60px;
     margin-left: -20px !important;
@@ -218,7 +292,7 @@ body, html {
     width: -webkit-calc(100% - 200px);
   }
 
-  ul.timeline > li > .timeline-badge {
+  ul.timeline > li > .timeline-badge, .timeline-badge1, .timeline-badge2 {
     left: 15px;
     margin-left: 0;
     top: 16px;
@@ -263,6 +337,18 @@ body, html {
   clear: both;
 }
 
+.timeline-badge {
+  background-image:url(../images/friends.jpeg);
+}
+
+.timeline-badge1 {
+  background-image:url(../images/creative.jpeg);
+}
+
+.timeline-badge2 {
+  background-image:url(../images/gallery.jpeg);
+}
+
 .fh5co-heading {
   margin-bottom: 5em;
   text-align: center;
@@ -283,14 +369,75 @@ body, html {
 
 
 
+
+/* testimonials */
+
+.testimonials-area {
+  background: #fff;
+  padding: 40px 0 80px 0;
+}
+
+#testimonial {
+    background: url(../img/testi-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.review-star {
+    text-align: center;
+    color: rgb(255, 214, 0);
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.client-pic img {
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+}
+
+.review-desc {
+    font-size: 24px;
+    line-height: 1.8;
+    font-weight: 100;
+    font-style: italic;
+    padding-top: 20px;
+    color: #000000;
+}
+#testimonial .block-title {
+    color: #000000;
+}
+#testimonial .block-title span {
+    border-color: #fff;
+}
+p.client-name {
+    float: right;
+    font-size: 30px;
+    color: #000000;
+    display: inline-block;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
 /* FAQ */
+
+.faq-area {
+  background: #fff;
+  padding: 40px 0 80px 0;
+}
 
 #location{
     background-color: #e4e4e4;
 }
 
 #location .media {
-      background: #fff;
+    background: #fff;
     margin-bottom: 30px;
 }
 
@@ -311,35 +458,37 @@ body, html {
     padding: 20px;
 }
 
-#location .media-object span.menu-price {
-  position: absolute;
-  background-color: #ffffff;
-  color: #222;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 6px 20px;
-  top: 50%;
-  left: 3%;
+
+
+
+/*gallery */
+
+.section-top-border {
+  padding: 70px 0;
+  border-top: 1px dotted #eee;
 }
 
-#location h2{
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-#location h3 {
-   color: #555;
-    font-size: 32px;
+.single-gallery-image, 
+.single-gallery-image2, 
+.single-gallery-image3, 
+.single-gallery-image4, 
+.single-gallery-image5, 
+.single-gallery-image6, 
+.single-gallery-image7, 
+.single-gallery-image8 {
+  margin-top: 30px;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  height: 200px;
 }
 
-#location p{
-    font-size: 16px;
-    font-weight: 300;
-    margin-bottom: 20px;
+.single-gallery-image {
+  background: url(../images/logo2.jpeg);
 }
 
-#location .btn{
-    padding: 7px 30px;
-    font-size: 16px;
+.single-gallery-image2 {
+   background: url(../images/logo5.jpeg);
 }
 
 
@@ -352,8 +501,8 @@ body, html {
 
 footer {
   background: #7b4397; 
-  float: left;
   width: 100%;
+  text-align: center;
   color: #fff;
   padding: 30px 0;
 }
