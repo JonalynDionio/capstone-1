@@ -12,6 +12,18 @@ http://www.templatemo.com/tm-513-avalon
     font-family: 'Open Sans', arial, sans-serif;
 }
 
+
+.navbar {
+  background-color: #c596dd;
+ }
+
+.navbar a.active {
+  background-color: #b0D4d0;
+  border-radius: 10px;
+}
+
+
+
 body {
 	overflow-x: hidden;
 	background-color: #fff;
@@ -77,6 +89,13 @@ p {
   .main-wrapper {
     width: 97%;
   }
+}
+
+
+/* navbar */
+
+.navbar a.active {
+    background-color: #805ba5;
 }
 
 
@@ -227,12 +246,12 @@ transition-delay: 0.3s;
 /*banner */
 .banner .col-md-8 {
 	padding-left: 0px;
-	padding-right: 5px;
+	padding-right: 0px;
 }
 
 .banner .col-md-4 {
 	padding-right: 0px;
-	padding-left: 5px;
+	padding-left: 0px;
 }
 
 
@@ -346,96 +365,9 @@ transition-delay: 0.3s;
 
 
 
-/* best-offer */
 
-.best-offer {
-	margin-top: 10px;
-}
 
-.best-offer .col-md-4 {
-	padding-left: 0px;
-	padding-right: 5px;
-}
 
-.best-offer .col-md-8 {
-	padding-right: 0px;
-	padding-left: 5px;
-}
-
-.best-offer-left-content {
-	min-height: 550px;
-	height: 550px;
-	padding-top: 175px;
-	padding-bottom: 175px;
-	text-align: center;
-	background-image: url(../images/logo26.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-
-.best-offer-left-content .icon {
-	text-align: center;
-	margin: 0 auto;
-	width: 140px;
-	height: 140px;
-	line-height: 140px;
-	background-color: transparent;
-	border: 1px solid #fff;
-	border-radius: 50%;
-}
-
-.best-offer-left-content h4 {
-	margin-top: 33px;
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #fff;
-	font-weight: 700;
-}
-
-.best-offer-right-content {
-	background-color: #eee;
-	padding: 80px 40px;
-	min-height: 550px;
-	height: 550px;
-}
-
-.best-offer-right-content h2 {
-	margin-top: 0px;
-	font-size: 32px;
-	font-weight: 300;
-	color: #121212;
-	line-height: 36px;
-}
-
-.best-offer-right-content em {
-	font-style: normal;
-	color: #b94e5e;
-	font-weight: 700;
-}
-
-.best-offer-right-content p {
-	margin: 18px 0px;
-}
-
-.best-offer-right-content ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-.best-offer-right-content ul li {
-	display: block;
-	font-size: 13px;
-	font-style: italic;
-	color: #7a7a7a;
-	font-weight: 300;
-	margin-bottom: 10px;
-}
-
-.best-offer-right-content .pink-button {
-	margin-top: 45px;
-}
 
 
 
