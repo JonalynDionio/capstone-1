@@ -20,9 +20,27 @@
 
 
 body {
-	overflow-x: hidden;
-	background-color: black;
+  background-attachment: fixed;
+  background-image: url("../images/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
+body:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 0.6;
+  z-index: -1;
+}
+
 
 ul {
 	list-style: none;
@@ -384,6 +402,10 @@ h5 {
 
 
 /* calendar */
+
+.table-responsive h2 {
+  text-align: center;
+}
 
 /* Dates */
 .agenda .agenda-date { width: 170px; }
