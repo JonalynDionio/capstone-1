@@ -21,6 +21,16 @@ hr {
     margin-bottom: 25px;
 }
 
+
+/* navbar */
+
+.navbar {
+  background-color: #d2b6e5;
+ }
+
+
+
+
 /* Set a style for all buttons */
 button {
     background-color: #4CAF50;
@@ -47,6 +57,7 @@ button:hover {
 .cancelbtn, .signupbtn {
   float: left;
   width: 50%;
+  margin-bottom: 20px;
 }
 
 /* Add padding to container elements */
@@ -74,11 +85,49 @@ button:hover {
 /* footer */
 
 footer {
-  background: #7b4397; 
+  background: #c5a3ff; 
   float: left;
   width: 100%;
-  color: #fff;
-  padding: 30px 0;
+  color: 2px black;
+  padding: 40px 0;  
 }
 
 
+
+
+/* scrollup */
+
+.scrollup{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition: opacity .5s, background-color .5s;
+    -webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+    background: blueviolet;
+    opacity: 1;
+}
+
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+
+}

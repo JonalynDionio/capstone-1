@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body, html {
@@ -13,12 +14,49 @@ body, html {
 
 
 
+
+/* carousel */
+
+.carousel-caption button{
+    background-color: #d2b6e5;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     border: 2px solid #c5a3ff; 
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.carousel-caption button:hover {
+    background-color: #fcc2ff; 
+    color: black;
+}
+
+.carousel-caption h3 {
+  color: black;
+}
+
+.carousel-caption p {
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* navbar */
+
 .navbar {
-  background-color: #6Ec0aa;
+  background-color: #d2b6e5;
  }
 
 .navbar a.active {
-  background-color: #b0D4d0;
+  background-color: #c5a3ff;
   border-radius: 10px;
 }
 
@@ -96,36 +134,6 @@ body:after {
   opacity: 0.6;
   z-index: -1;
 }
-
-
-
-
-
-
-/* carousel*/
-
-.carousel-caption {
-  color: black;
-}
-
-.carousel-caption button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 12px;
-  margin-bottom: 200px;
-}
-
-.carousel-caption button:hover {
-  background-color: #555;
-  color: white;
-}
-
 
 
 
@@ -373,7 +381,6 @@ body:after {
   line-height: 1.5;
   font-weight: bold;
   color: black;
-  font-family: "Sacramento", Arial, serif;
 }
 
 
@@ -472,6 +479,9 @@ p.client-name {
 
 
 
+
+
+
 /*gallery */
 
 .section-top-border {
@@ -505,16 +515,53 @@ p.client-name {
 
 
 
-
-
-
 /* footer */
 
 footer {
-  background: #7b4397; 
+  background: #c5a3ff; 
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: 2px black;
   padding: 30px 0;
+}
+
+
+
+
+/* scrollup */
+
+.scrollup{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition: opacity .5s, background-color .5s;
+    -webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+    background: blueviolet;
+    opacity: 1;
+}
+
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+
 }
 

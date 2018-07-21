@@ -3,26 +3,28 @@
 
 
 
+/* navbar */
+
 .navbar {
-  background-color: #805ba5;
+  background-color: #d2b6e5;
  }
 
 .navbar a.active {
-  background-color: #7b4397;
+  background-color: #c5a3ff;
   border-radius: 10px;
 }
 
+
+/* about */
 
 .about-title {
 	margin-top: 50px;
 }
 
-
-
-.about {
-	height: 500px;
-	width: 550px;
+.about-area {
+  background-color: #fff;
 }
+
 
 
 body {
@@ -72,7 +74,7 @@ body:after {
 @media (max-width: 767px) {
   .main-wrapper-first {
     margin-top: 3rem;
-    width: 97%;
+    width: 90%;
   }
 }
 
@@ -96,7 +98,7 @@ body:after {
 
 @media (max-width: 767px) {
   .main-wrapper {
-    width: 97%;
+    width: 90%;
   }
 }
 
@@ -104,8 +106,10 @@ body:after {
 
 /* instructor */
 
-.instructor {
-  margin-bottom: 100px;
+
+.instructor-area {
+  background: #fff;
+  padding: 40px 0 80px 0;
 }
 
 
@@ -113,11 +117,53 @@ body:after {
 /* footer */
 
 footer {
-  background: #7b4397; 
+  background: #c5a3ff; 
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: black;
   padding: 30px 0;
 }
+
+
+
+
+
+/* scrollup */
+
+.scrollup{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition: opacity .5s, background-color .5s;
+    -webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+    background: blueviolet;
+    opacity: 1;
+}
+
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+
+}
+
 
 

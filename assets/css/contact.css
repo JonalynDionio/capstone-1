@@ -5,6 +5,23 @@
 }
 
 
+
+/* navbar */
+
+.navbar {
+  background-color: #d2b6e5;
+ }
+
+.navbar a.active {
+  background-color: #c5a3ff;
+  border-radius: 10px;
+}
+
+
+
+
+
+
 /* wrapper */
 
 .main-wrapper-first {
@@ -312,3 +329,53 @@ footer {
 }
 
 
+/* footer */
+
+footer {
+  background: #c5a3ff; 
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: 30px 0;
+}
+
+
+
+
+
+/* scrollup */
+
+.scrollup{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition: opacity .5s, background-color .5s;
+    -webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+    background: blueviolet;
+    opacity: 1;
+}
+
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+
+}

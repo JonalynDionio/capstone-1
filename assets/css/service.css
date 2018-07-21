@@ -1,10 +1,3 @@
-/* 
-
-Avalon Template 
-
-http://www.templatemo.com/tm-513-avalon
-
-*/
 
 * {
     margin: 0;
@@ -13,20 +6,22 @@ http://www.templatemo.com/tm-513-avalon
 }
 
 
+
+/* navbar */
+
 .navbar {
-  background-color: #c596dd;
+  background-color: #d2b6e5;
  }
 
 .navbar a.active {
-  background-color: #b0D4d0;
+  background-color: #c5a3ff;
   border-radius: 10px;
 }
 
 
-
 body {
 	overflow-x: hidden;
-	background-color: #fff;
+	background-color: black;
 }
 
 ul {
@@ -92,11 +87,30 @@ p {
 }
 
 
-/* navbar */
 
-.navbar a.active {
-    background-color: #805ba5;
+
+/* button */
+
+ .text-content button{
+    background-color: #d2b6e5;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     border: 2px solid #c5a3ff; 
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
+
+.text-content button:hover {
+    background-color: #fcc2ff; 
+    color: black;
+}
+
 
 
 
@@ -107,7 +121,7 @@ p {
 	padding-top: 0vh;
 	padding-bottom: 0vh;
 	text-align: center;
-	background-image: url(../images/logo28.jpeg);
+	background-image: url(../images/bg2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -277,7 +291,7 @@ transition-delay: 0.3s;
 .left-banner-content h1 {
 	font-size: 64px;
 	font-weight: 300;
-	color: #fff;
+	color: black;
 	line-height: 70px;
 }
 
@@ -295,7 +309,7 @@ transition-delay: 0.3s;
 
 .right-banner-content {
 	padding: 100px 45px;
-	background-color: #f4bc51;
+	background-color: #fcc2ff;
 	text-align: center;		
 	min-height: 680px;
 	height: 680px;
@@ -305,21 +319,21 @@ transition-delay: 0.3s;
 	font-size: 48px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #fff;
+	color: black;
 	margin-bottom: 5px;
 }
 
 .right-banner-content .line-dec {
 	width: 100%;
 	height: 5px;
-	background-color: #fff;
+	background-color: black;
 	margin: 30px auto;
 }
 
 .right-banner-content span {
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #fff;
+	color: black;
 	letter-spacing: 0.5px;
 }
 
@@ -331,7 +345,7 @@ transition-delay: 0.3s;
 .right-banner-content p {
 	font-style: italic;
 	font-size: 13px;
-	color: #fff;
+	color: black;
 }
 
 .right-banner-content .social-icons {
@@ -351,7 +365,7 @@ transition-delay: 0.3s;
 	text-align: center;
 	display: inline-block;
 	line-height: 36px;
-	background-color: #fff;
+	background-color: black;
 	border-radius: 50%;
 	transition: all 0.5s;
 	color: #f4bc51;
@@ -364,9 +378,45 @@ transition-delay: 0.3s;
 
 
 
+h5 {
+	background-color: yellow;
+}
 
 
+/* calendar */
 
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; } 
+
+
+/* Events */
+.agenda .agenda-events {  } 
+.agenda .agenda-events .agenda-event {  } 
+
+@media (max-width: 767px) {
+    
+}
+
+
+.calendar-area {
+  background: #fff;
+  padding: 40px 0 80px 0;
+}
 
 
 
@@ -374,10 +424,51 @@ transition-delay: 0.3s;
 /* footer */
 
 footer {
-  background: #7b4397; 
-  float: left;
+  background: #c5a3ff; 
   width: 100%;
-  color: #fff;
-  padding: 30px 0
+  text-align: center;
+  color: black;
+  padding: 30px 0;
+}
+
+
+
+
+
+/* scrollup */
+
+.scrollup{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition: opacity .5s, background-color .5s;
+    -webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+    background: blueviolet;
+    opacity: 1;
+}
+
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+
 }
 
