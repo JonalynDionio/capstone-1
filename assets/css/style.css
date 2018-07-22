@@ -505,12 +505,38 @@ p.client-name {
 }
 
 .single-gallery-image {
-  background: url(../images/logo2.jpeg);
+  background: url(../images/drawing.jpeg);
 }
 
 .single-gallery-image2 {
-   background: url(../images/logo5.jpeg);
+   background: url(../images/photography.jpg);
 }
+
+.single-gallery-image3 {
+   background: url(../images/music5.jpeg);
+}
+
+.single-gallery-image4 {
+   background: url(../images/handicrafts.jpg);
+}
+
+.single-gallery-image5 {
+   background: url(../images/photography3.jpeg);
+}
+
+.single-gallery-image6 {
+   background: url(../images/handicrafts3.jpeg);
+}
+
+.single-gallery-image7 {
+   background: url(../images/handicrafts6.jpeg);
+}
+
+.single-gallery-image8 {
+   background: url(../images/photography.jpeg);
+}
+
+
 
 
 
