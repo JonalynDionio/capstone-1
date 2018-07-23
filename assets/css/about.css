@@ -25,7 +25,9 @@
   background-color: #fff;
 }
 
-
+ul {
+  list-style-type: none;
+}
 
 body {
   background-attachment: fixed;
@@ -110,9 +112,17 @@ body:after {
 
 .instructor-area {
   background: #fff;
-  padding: 40px 0 80px 0;
+  padding: 10px 20px 10px 20px;
 }
 
+.instructor {
+  transition: transform .2s;
+  padding: 5px;
+}
+
+.instructor:hover {
+  transform: scale(1.5);
+}
 
 
 /* footer */
