@@ -4,21 +4,6 @@
 	box-sizing: border-box;
 }
 
-
-
-/* navbar */
-
-.navbar {
-  background-color: #d2b6e5;
- }
-
-.navbar a.active {
-  background-color: #c5a3ff;
-  border-radius: 10px;
-}
-
-
-
 body {
   background-attachment: fixed;
   background-image: url("../images/bg.jpg");
@@ -26,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 body:after {
@@ -41,19 +27,26 @@ body:after {
   z-index: -1;
 }
 
+/* navbar */
+.navbar {
+  background-color: #d2b6e5;
+ }
 
+.navbar a.active {
+  background-color: #c5a3ff;
+  border-radius: 10px;
+}
 
 /* wrapper */
-
 .main-wrapper-first {
-  width: 60.75%;
+  width: 90%;
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 @media (min-width: 1200px) {
   .main-wrapper-first {
-    width: 75%;
+    width: 90%;
   }
 }
 
@@ -65,21 +58,19 @@ body:after {
 
 @media (max-width: 767px) {
   .main-wrapper-first {
-    margin-top: 3rem;
-    width: 97%;
+    margin-top: 1rem;
+    width: 90%;
   }
 }
-
 
 .main-wrapper {
-  width: 68.75%;
+  width: 90%;
   margin: 0 auto;
-  background-color: #fff;
 }
 
 @media (min-width: 1200px) {
   .main-wrapper {
-    width: 75%;
+    width: 90%;
   }
 }
 
@@ -91,60 +82,23 @@ body:after {
 
 @media (max-width: 767px) {
   .main-wrapper {
-    width: 97%;
+    width: 90%;
   }
 }
 
-
-
-
 /*contact*/
-
 .contact-area {
   background: #fff;
   padding: 40px 0 80px 0;
 }
 
-
-
-
-
-/* footer */
-
-footer {
-  background: #7b4397; 
-  width: 100%;
-  text-align: center;
-  color: #fff;
-  padding: 50px 0;
+.contact-details {
+	font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contact-details h6 {
+	font-size: 20px;
+}
 
 .col-lg-1 {
 	width: 8.38%; /* 100 / 12 */
@@ -345,23 +299,7 @@ footer {
 	}
 }
 
-
-/* footer */
-
-footer {
-  background: #c5a3ff; 
-  width: 100%;
-  text-align: center;
-  color: black;
-  padding: 30px 0;
-}
-
-
-
-
-
 /* scrollup */
-
 .scrollup{
     width: 30px;
     height: 30px;
@@ -394,5 +332,13 @@ footer {
     margin-top: -7px;
     margin-left: -6px;
     text-decoration: none;
+}
 
+/* footer */
+footer {
+  background: #c5a3ff; 
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: 30px 0;
 }

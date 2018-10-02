@@ -1,4 +1,4 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: 'Montserrat Alternates', sans-serif;}
 * {box-sizing: border-box}
 
 /* Full-width input fields */
@@ -21,14 +21,70 @@ hr {
     margin-bottom: 25px;
 }
 
-
 /* navbar */
-
 .navbar {
   background-color: #d2b6e5;
  }
 
 
+.logo {
+  width: 40%;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 70%;
+  }
+}
+
+/* wrapper */
+.main-wrapper-first {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+@media (min-width: 1200px) {
+  .main-wrapper-first {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-wrapper-first {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-wrapper-first {
+    margin-top: 1rem;
+    width: 90%;
+  }
+}
+
+.main-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .main-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-wrapper {
+    width: 90%;
+  }
+}
 
 
 /* Set a style for all buttons */
